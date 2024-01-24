@@ -4,6 +4,9 @@ import hello.hellospring.domain.Member;
 
 import java.util.*;
 
+/**
+ * repository는 주로 데이터 입출력과 관련된 메서드들이 존재한다.
+ */
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
